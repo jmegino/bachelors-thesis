@@ -1,0 +1,142 @@
+
+
+
+
+DROWSINESS PATTERN RECOGNITION WARNING SYSTEM
+
+
+
+
+Bacarisas, Dennis L.
+Ibarrola, Adam Wilson S.
+Megino, Jerald Jewinvert J.
+
+BSCpE IV – GF
+
+
+Table of Contents
+CHAPTER I	 INTRODUCTION	3
+Background of the Study	4
+Objectives of the Study	4
+Significance of the Study	5
+Scope and Limitations	5
+Definition of Terms	6
+CHAPTER II	 REVIEW OF LITERATURE AND STUDIES	7
+Related Literatures	7
+Related Studies	8
+Conceptual Framework	10
+CHAPTER III  METHODOLOGY	11
+Research Locale	11
+Unit of Analysis/Respondents/Treatments	11
+Research Design	11
+Research Instrument	12
+Procedures/Data Collection	12
+
+
+No table of figures entries found.
+
+CHAPTER I	
+INTRODUCTION
+
+	In developing countries, transportation industries are at its highest en route from the capital to the regions of the Philippines. Considering the ramifications by the demand of such business, drivers are deprived from rest and sleep; increasing the chances of accidents that will endanger themselves, other drivers, and pedestrians on the road. Hence, it is necessary to create a portable device that mitigates such risk.
+	The Drowsiness Pattern Recognition Warning System aids in the statement above, in which it aims to mitigate the risk of falling asleep while driving. The system focuses on the behavioral eye patterns of the driver, checking the driver’s state that will serve as the input to the system. In this system, the driver who is at risk of falling asleep will be awakened through different methods such as a massage pad, audible buzzer, etc.
+	Based on Metro Manila Accident Recording and Analysis System (MMARAS) website, this table shows the number of road crash incidents/cases gathered and compiled from January to December 2016, classified by month.
+MonthFatalNon-Fatal
+ InjuryDamage to Property Grand 
+TotalJanuary45151871878,750February54143370818,568March35158972368,860April36142379619420May36135676299,021June26130478889,218July26126582249,515August25127482899,588September24127185199,814October41133575958,971November36128474498,769December42136474228,828Grand Total42616,41692,48092,480Ave. Accident Rate Per Day1.27 per day44.85 per day252.68 per day298.80 or 299 per dayTable 1. Road crash incidents in Metro Manila from January to December 2016
+
+
+Background of the Study
+	Despite the country developing innovations to improve the economy as shown by the majority of transportation vehicles present in cities, most vehicles lack the technology that aids drivers in any manner that may prevent accidents. Lacking the presence of a warning system in cars, factoring in the state of the driver, chances of road accidents are increased. In addition, there are many factors that cause accidents rendering the situation inevitable.  However, crossing out one factor that can cause an accident is significant enough to prevent casualties or the likes.
+	With a device that has a warning system introduced in an environment where a driver’s state may lead to accidents, the technology of such would be mandatory in transportation industries, not only showing that a country is developing in technology but also implementing the safety of the people.
+	Currently, there are hardware components and software applications that implement a warning system through the state of the driver, particularly the eyes. Using technology specialized in this problem, the researchers proposed the study to create a prototype that would detect the driver’s eyes and provide necessary actions that define itself as a device with a warning system using eye detection with reference to the behavioral eye patterns that exhibit drowsiness.
+
+Objectives of the Study
+	The main objective of the study is to create a portable device that warns the driver’s state of alertness.
+	Particularly, the study aims to accomplish the main objective shown, such are stated.
+1. To identify sets of behavioral eye patterns that detects individual drowsiness.
+2. To implement potential components for alerting the driver’s state.
+3. To create the program for the identification of the sets of behavioral eye patterns exhibiting drowsiness.
+4. To evaluate the efficiency of the device.
+Significance of the Study
+	The study will significantly assist the drivers, especially long-haul vehicle drivers, who are working with little to no sleep. It will also mitigate the risk of accidents by alerting the driver if drowsiness is present. 
+	Aspiring car companies in this country can also benefit from the study, since not only customers will be attracted to the technology present in the product but also adds the safety features of the product to induce less accidents.
+	Lastly, the future researchers may refer to the study who are engaged in such field specialized in image processing. Moreover, this may also inspire future researchers to improve and enhance the system.
+
+Scope and Limitations
+	To produce a functional output of the research, the researchers factored out situations for a computer that is difficult to process into. 
+	The study is concerned with developing a program running in a microcontroller that detects the face and eyes of the driver in real time, identifies sets of behavioral eye patterns for drowsiness, and determines the state of the driver by monitoring the eyes through image processing. It is also concerned in determining the components to be used which are accessible that satisfies the objectives as stated.
+	On the contrary, eye detection systems and identification of behavioral eye patterns are still at its development, wherein certain factors of the driver cannot be processed by the program such as wearing sunglasses that hinders the detection of the driver’s eye, which is the basis for detecting drowsiness.
+Definition of Terms
+	For easier comprehension of technical words stated in the study, they are explained in layman’s terms as follows:
+ Face Detection is a technology that identifies a face within digital images through image processing; employing various algorithms focused on detecting human faces from a video/image frame.
+Image Processing is a method to perform operations on an image by enhancing the image or selecting distinctive information from the image necessary to the application.
+Warning System is a system deployed to a group of people or individual to inform the state of the environment is in danger.
+Behavioral Eye Patterns are sets of identified eye movements or actions indicating numerous factors, particularly drowsiness. 
+
+
+CHAPTER II	
+REVIEW OF LITERATURE AND STUDIES
+
+Related Literatures
+      There is an average of 299 street crash occurrences each day in Metro Manila concurring to Metro Manila Accident Recording and Analysis System (MMARAS). Also, MMARAS states that there were 109,322 road crash incidents in the National Capital Region in 2016, a 14.33% increase from the 95,615 incidents recorded in 2015. Based on MMARAS reports from 2010-2016, human error has been the top cause of road crashes in Metro Manila. Human error, as characterized by the MMARAS, refers to the distinctive forms of negligence and physical challenges or distractions that a driver faces, driving to street crashes. Within the 2016 MMARAS report, a few human error cases included drivers suffering medical issues such as dizziness and asthma; drivers beneath the impact of liquor; and drivers who are tired or were sleeping at the wheel. (https://www.rappler.com/move-ph/issues/road-safety/165556-road-crashes-causes-metro-manila-human-error)
+
+      The U.S. National Library of Medicine defined that the drowsiness is the feeling of unusually sleeping in improper circumstance or improper terms, characterized by a sleepy or tired feeling or trouble in keeping the eyes open. The causes of drowsiness are excessive daytime sleepiness (without a known cause) may be a sign of a sleep disorder, Depression, anxiety, stress, and boredom can all contribute to excessive sleepiness. However, these conditions more frequently cause weakness and lack of concern. Sleep can be overwhelming; acknowledgment is rising that neurobiologically based sleepiness contributes to human error in a variety of settings, and driving is no exemption. Within the later studies and reporting of noncommercial crashes, investigators have started to gather and analyze information for occurrences in which the driver may have fallen asleep. The terms “fatigue” are sometimes used interchangeably with sleepiness; however, these terms have individual meaning (Sood, 2015). Fatigue is overtired or exhausted from time to time. Such occurrences of brief weakness more often than not have an identifiable cause and a likely cure. (https://medlineplus.gov/ency/article/003208.htm)
+
+      “Driver Drowsiness is one of the leading causes of motor vehicular accidents. In 2014, 846 fatalities related to drowsy drivers were recorded in NHTSA’s reports. These fatalities have remained largely consistent across the past decade. There was an estimated average of 83,000 crashes each year related to drowsy driving between 2005 and 2009. For these reasons, risk alert system for drivers using a detector that can determine drowsiness is highly recommended. The alert system can awaken the drowsy driver or hand over the control to autonomous vehicle.” (B. Reddy, Y. Kim, S. Yun, C. Seo, J. Jang, Real-time Driver Drowsiness Detection for Embedded System Using Model Compression of Deep Neural Networks)
+
+      “Face Detection can be performed fairly reliably such as with OpenCV's Face Detector, working in roughly 90-95% of clear photos of a person looking forward at the camera. It is usually harder to detect a person's face when they are viewed from the side or at an angle, and sometimes this requires 3D Head Pose Estimation. It can also be very difficult to detect a person's face if the photo is not very bright or if part of the face is brighter than another or has shadows or is blurry or wearing glasses, etc.” (S. Emami, Introduction to Face Detection and Face Recognition)
+
+      “Saccadic eye movements and perceptual attention work in a coordinated fashion to allow selection of the objects, features or regions with the greatest momentary need for limited visual processing resources. This study investigates perceptual characteristics of pre-saccadic shifts of attention during a sequence of saccades using the visual manipulations employed to study mechanisms of attention during maintained fixation. The first part of this paper reviews studies of the connections between saccades and attention, and their significance for both saccadic control and perception. The second part presents three experiments that examine the effects of pre-saccadic shifts of attention on vision during sequences of saccades.” (M. Zhao, T. Gersch, B. Schnitzer, B.Dosher, E. Kowler, Eye movements and attention: The role of pre-saccadic shifts of attention in perception, memory and the control of saccades)
+
+
+Related Studies
+      In the research, "Driver's drowsiness detection using an enhanced image processing technique inspired by the human visual system" (Kholerid, H., TaheriNejad, N., Ghaderi, R., Baleghi, Y. 2016) stated that in the proposed algorithm, new methods to assess the state of the mouth, eyes and head, have been presented to help the detection of driver’s drowsiness. After extricating these three features from each frame, a new choice algorithm based on the extricated features decides whether the driver is drowsy or not. An arrangement of tests was run to confirm the usefulness and performance of the proposed system. These experiments proved the accuracy and strength of the recommended approach with 90% success rate in identifying drowsiness. The tests show that the unused proposed algorithm is able to reach to the next success rate in several light conditions as well as in analyzing individuals with distinctive appearances.
+
+      In the research, “Face recognition system on Raspberry Pi” (O. Nikisins, R. Fuksis, A. Kadikis, M. Greitans ) stated that both face recognition and face detection produce the same output wherein the former has a database. After the extraction of the local binary pattern algorithm, it will be developed further in the performance of the system. Moreover, the face recognition algorithm ascertains every pattern of the eyes; this method determines the approximate location of the eyes. Furthermore, the code from the OpenCV library for face detection and image acquisition will be used after setting up the code in the Raspberry Pi. The embedded face recognition system based on Raspberry Pi single-board computer is introduced and discussed in this paper, which is separated in two parts - the software part and the hardware part. Computer program part describes the algorithms for face detection, localization, feature extraction and recognition. Hardware part describes how the framework was built and what modules does it utilize.
+
+      In the research, “Feature Extraction and Filter Design for Eye Pattern Analysis” (L.  Zhou, H. Wang) stated the two modern methods have been presented to respectively recognize eye state and detect eye corner. This study contributions are the proposition of the 1 Local Intensity Increasing Patterns (LIIP)-based eye descriptor and a relationship channel Synthetic Least Squares Filter(SLSF). LIIP communicates the intensity distribution slant of neighborhood design. Combining with boosting classifier, the eye descriptor accomplishes over 98% state acknowledgment rate in eye pictures with huge variations due to turn, scale, localization blunder, light and glasses. On the other hand, SLSF is straightforwardly learnt in spatial space, and is free of edge twists. 
+
+
+Conceptual Framework
+
+	    	      
+
+
+CHAPTER III
+METHODOLOGY
+	This chapter presents the summary of the whole design process basically the methods and procedures that were utilized in order to come up with the design for the implementation of Drowsiness Pattern Recognition Warning System. This also presents how the findings and conclusions will be identified. This chapter also includes the locale of the study, research design, construction guide, source of data and data gathering procedures.
+
+Research Locale
+	If implemented, the device will be setup in selected transportation vehicles in Lucban terminal, specifically vehicles which travels from Lucban to Buendia and Lawton. The device will be located in the dashboard where the drivers are easily detected by the camera.
+
+Unit of Analysis/Respondents/Treatments
+	The drivers of selected transportation vehicle in Lucban, on route from Lucban to Buendia and Lawton at dawn will be the unit of treatments in the study because not only they are the one who are using the vehicle but also they will be the one who will evaluate the efficiency of the device. They are those drivers that travels at dawn and they might be having a lack of sleep, tired of driving, boredom, stress and other factors that may lead to the driver to its drowsiness state.
+
+Research Design
+	The researchers used applied research method in the conduct of this study. Applied research is used in the application of various concept and principles in operating system, microprocessor system, instrumentation and control and feedback system in the design of the Drowsiness Pattern Recognition Warning System. The descriptive side of this study fall upon the measure of effectiveness and performance of the actual design.
+
+Research Instruments
+	To determine the initial concern needed to accomplish the Drowsiness Pattern Recognition Warning System, the researchers gather information with the use of the following research instruments like library books/thesis and internet articles. Published theses from the university library were analyzed and studied by the researchers to provide additional information. On the other hand, articles from the internet were also used by the researchers to support and validate the needs for the Drowsiness Pattern Recognition Warning System.
+
+Procedures
+	The researchers gathered data through library research, reading documents, published theses and interviewing. This increased the knowledge of the researchers regarding the ideas that can be applied in the research.
+	These are several step-by-step procedures that the researchers are following to attain the ideal output of the prototype. Those procedures are as follows (a) Designing and Planning of prototype, (b) Selecting of materials, (c) Interfacing, (d) Programming, (e) Testing and (f) Evaluation.
+a. Planning and Designing of Prototype
+   The researchers gathered the required information that is helpful on the designing of the prototype. The data used in this research are based on the principles and ideas of programming field. Moreover, the researchers also collected information through internet articles and consulted some knowledgeable researchers regarding on the research.
+b. Selecting and Purchasing of Materials
+   The researchers studied the materials which are appropriate for constructing the prototype. In the selection of materials needed for the prototype, the preferences of the researchers are the cost and quality. Next is the confirmation of the availability of the materials in the existing market and also where the materials are available.
+c. Programming
+   The researchers will look for possible application and language that can be used in a single board computer (Raspberry Pi). They also gathered information through the internet, their previous knowledge about creating a program and by interviewing those who are experts in programming languages.
+d. Interfacing
+   In this step, the researchers will be connecting the camera and LCD monitor to the single board computer (Raspberry Pi). The camera together with the LCD monitor will show if the faces were detected by the system. It is planned to be placed in the dashboard of the vehicle where the driver can be easily detected.	From the dashboard, the camera is located and connected to the single board computer (Raspberry Pi) and LCD monitor which is located near the dashboard. Any possible cables that are appropriate for the connection of the camera, LCD monitor and single board computer (Raspberry Pi) will be used.
+e. Testing
+   The researchers will test the detecting and identifying process of the camera and shows it in the LCD monitor. In this step, the researchers will know if the prototype is functioning or not. The prototype will be applied and tested by the selected transportation vehicles of Lucban.
+
+f. Evaluation
+   The final stage of the procedure is the evaluation. In this step, the device will be evaluated whether it is efficient or not, the design of the device as well and other questions that is answerable by the drivers and not by the researchers. The researchers will provide some questionnaires for the evaluation of the device.
+
+
+
+
+
